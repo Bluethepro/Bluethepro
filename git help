@@ -1,0 +1,6 @@
+cd ..
+cd ../../../
+git status
+git add .
+git commit -m "test message"
+git push
