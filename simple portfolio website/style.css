@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.wrapper {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background: radial-gradient(#254335, #191a1a);
+}
+.container {
+  width: 1350px;
+  max-width: 95%;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100vh;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.menu {
+  width: 50px;
+  height: auto;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: #42a66c;
+  transition: 0.3s;
+}
+.box {
+  display: flex;
+  align-items: center;
+}
+button {
+  background: #42a66c;
+  display: inline-block;
+  padding: 16px 40px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #42a66c;
+  margin-right: 30px;
+  transition: 0.3s;
+  border-radius: 1px;
+  box-shadow: 4px 4px #fff;
+}
+button:hover {
+  background: transparent;
+  border: 1px solid #42a66c;
+  color: #42a66c;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 4px 4px #42a66c;
+}
+.content {
+  position: relative;
+  padding-top: 190px;
+  z-index: 4;
+}
+.content h1 {
+  color: #fff;
+  font-size: 95px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 35px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.content p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.85;
+  margin-bottom: 30px;
+}
+.btn {
+  background: #42a66c;
+  display: inline-block;
+  padding: 16px 40px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #42a66c;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.btn:hover {
+  background: #fff;
+  border: 1px solid #fff;
+  color: #42a66c;
+  transform: scale(1.1);
+  transition: 0.4s;
+}
